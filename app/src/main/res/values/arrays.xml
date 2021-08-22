@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Item Fragment-->
+    <string-array name="leeway_items">
+        <item>Fender</item>
+        <item>Blåse</item>
+        <item>Redningsvest</item>
+        <item>Drivstofftank med innhold</item>
+        <item>Drivstofftank uten innhold</item>
+        <item>Åre</item>
+        <item>Fiskestang</item>
+        <item>Båtflagg</item>
+        <item>Båtflaggstang</item>
+        <item>Garn</item>
+        <item>Oppblåsbare gummileker</item>
+        <item>Plastgjenstander</item>
+        <item>Klesplagg</item>
+        <item>Båtpute</item>
+        <item>Tau</item>
+        <item>Vannski, seilbrett</item>
+        <item>Jolle</item>
+    </string-array>
+
+    <!-- Time Fragment-->
+    <string-array name="months">
+        <item>januar</item>
+        <item>februar</item>
+        <item>mars</item>
+        <item>april</item>
+        <item>mai</item>
+        <item>juni</item>
+        <item>juli</item>
+        <item>august</item>
+        <item>september</item>
+        <item>oktober</item>
+        <item>november</item>
+        <item>desember</item>
+
+    </string-array>
+
+    <!-- Onboarding fragment -->
+
+    <string-array name="titlesOnboarding">
+        <item>Velkommen til FenderFinder!</item>
+        <item>Velg punkt på kart</item>
+        <item>Legg til ekstra informasjon</item>
+        <item>Se hvor gjentanden kan befinne seg</item>
+        <item>Tillatt lokasjonssporing</item>
+    </string-array>
+    
+    <string-array name="descriptionOnboarding">
+        <item>
+            Denne appen hjelper deg med å lete etter
+            gjenstanden du har mistet på sjøen.
+        </item>
+
+        <item>
+            Velg et punkt i sjøen der du har mistet din gjenstand.
+            Er du usikker på akkurat hvor, kan du angi en radius senere.
+            \n\n
+            Når du har valgt punkt, trykk på knappen nederst på
+            skjermen for å gå videre.
+            \n\n
+            OBS: Du må velge et punkt på et havområde. Du kan altså ikke
+            velge en innsjø, en elv eller liknende.
+        </item>
+
+        <item>
+            Etter at du har angitt et punkt, kan du spesifisere dato,
+            klokkeslett, usikkerhetsradius og hva slags gjenstand du
+            har mistet.
+            \n\n
+            Dato og klokkeslett må være inntil 10 dager tilbake i tid.
+            \n\n
+            Usikkerhetsradius må være mellom 0 og 200 meter.
+        </item>
+
+        <item>
+            Etter litt ventetid vil du se estimert søkeområde.
+            \n
+            Bruk sporing på telefonen for lokalt værsvarsel og for å se hvor du er i forhold
+            til gjenstanden.
+            \n\n
+            Sirkel betyr at gjenstanden driver i vannet.
+            \n
+            Kryss betyr at gjenstanden har strandet inntil land.
+        </item>
+
+        <item>
+            For best opplevelse med FenderFinder, og for å gjøre det
+            lettere å søke etter din gjenstand, anbefaler vi at du skrur
+            på lokasjonssporing.
+            \n\n
+            Du kan endre dette i telefonens innstillinger senere.
+            \n\n
+            Lykke til med søket!
+        </item>
+    </string-array>
+</resources>

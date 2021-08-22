@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/overviewFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_background"/>
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/h1"
+        android:text="@string/searchDetails"
+
+        android:layout_marginTop="@dimen/input_header_margin_top"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- GPS -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/box_gps"
+        android:layout_width="@dimen/box_width"
+        android:layout_height="@dimen/box_height"
+        android:background="@drawable/overview_button_design"
+        android:layout_marginTop="@dimen/box_margin_top"
+
+        app:layout_constraintTop_toBottomOf="@id/overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/gpsHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gps_coordinates"
+            android:theme="@style/ColumnInformation"
+
+            android:layout_marginTop="@dimen/header_text_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/gpsData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/DataInformation"
+
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/gpsHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+            android:id="@+id/gpsCoordinatesButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/clear"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- TIME -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/box_time"
+        android:layout_width="@dimen/box_width"
+        android:layout_height="@dimen/box_height"
+        android:background="@drawable/overview_button_design"
+        android:layout_marginTop="@dimen/box_margin_top"
+
+        app:layout_constraintTop_toBottomOf="@id/box_gps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/timeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:theme="@style/ColumnInformation"
+
+            android:layout_marginTop="@dimen/header_text_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/timeData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/DataInformation"
+
+            app:layout_constraintTop_toBottomOf="@id/timeHeader"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/timeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/clear"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- RADIUS -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/box_radius"
+        android:layout_width="@dimen/box_width"
+        android:layout_height="@dimen/box_height"
+        android:background="@drawable/overview_button_design"
+        android:layout_marginTop="@dimen/box_margin_top"
+
+        app:layout_constraintTop_toBottomOf="@id/box_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/radiusHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radius"
+            android:theme="@style/ColumnInformation"
+
+            android:layout_marginTop="@dimen/header_text_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/radiusData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/DataInformation"
+
+            app:layout_constraintTop_toBottomOf="@id/radiusHeader"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/radiusButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/clear"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!-- ITEM -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/box_item"
+        android:layout_width="@dimen/box_width"
+        android:layout_height="@dimen/box_height"
+        android:background="@drawable/overview_button_design"
+        android:layout_marginTop="@dimen/box_margin_top"
+
+        app:layout_constraintTop_toBottomOf="@id/box_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/itemHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item"
+            android:theme="@style/ColumnInformation"
+
+            android:layout_marginTop="@dimen/header_text_margin"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/itemData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/DataInformation"
+
+            app:layout_constraintTop_toBottomOf="@id/itemHeader"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/itemButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/clear"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_blue">#202C59</color>
+    <color name="app_blue_30">#4D202C59</color>
+    <color name="blue_background_tint">#1CFFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent_white">#44FFFFFF</color>
+    <color name="semi_transparent_white">#CCFFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="transparent_black">#44000000</color>
+
+    <color name="clear">#00FFFFFF</color>
+
+    <color name="transparent_red">#AAFF5555</color>
+
+    <color name="color_active">#FF007610</color>
+    <color name="color_stranded">#FFD60000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+</resources>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">FenderFinder</string>
+
+    <!-- Default text -->
+    <string name="top_text">Din posisjon: </string>
+    <string name="bottom_text">Markørens posisjon: </string>
+    <string name="precipitation_default">mm</string>
+    <string name="wind_speed_default">m/s</string>
+    <string name="temperature_default">°</string>
+    <string name="wrong_date">Kan ikke velge tidspunkt frem i tid</string>
+
+    <!-- GPS Fragment -->
+    <string name="gps_coordinates">GPS-koordinater</string>
+    <string name="gps_description_01">
+        GPS-koordinatene for der hvor du mistet gjenstanden.\n
+        <br>Dataen brukes for å beregne drivbanen for den mistede gjenstanden</br>
+    </string>
+
+    <string name="latitude_example">59.429319</string>
+    <string name="longitude_example">10.5456458</string>
+
+    <string name="gps_description_02">
+        Stemmer ikke dataen?\n
+        <br>Velg nye koordinater ved å gå tilbake til kartet.</br>
+    </string>
+
+    <string name="backToMap">Tilbake til kart</string>
+    <string name="correct">Stemmer</string>
+
+    <!-- Time Fragment -->
+    <string name="time">Tidspunkt</string>
+    <string name="time_description_01">
+        Velg dato og tid for når du mistet gjenstanden.\n
+        Dersom du velger tidspunkt til å være nåtid, vil \n simulering vise hvor gjenstanden din er om én time.
+    </string>
+    <string name="colon">:</string>
+
+    <!-- Radius fragment -->
+    <string name="radius">Usikkerhetsradius</string>
+    <string name="radius_description">
+        Dersom du ikke er helt sikker på hvor du mistet gjenstanden\n
+        <br>din, bestem en radius for et område du kan\n ha mistet den. \n </br>
+    </string>
+    <string name="zero_meters">0 m</string>
+    <string name="meter">m</string>
+
+    <!-- Item Fragment -->
+    <string name="item">Gjenstand</string>
+    <string name="item_description_01">Hvilken gjenstand har du mistet? Velg gjenstand under.</string>
+    <string name="selectItem">Velg gjenstand</string>
+
+    <!-- Overview -->
+    <string name="searchDetails">Detaljer</string>
+    <string name="search_button_text">Søk</string>
+    <string name="save_button_text">Lagre</string>
+    <string name="input_time_exception_msg">
+        Sjekk klokkeslett \'%s\' og dato \'%s\': gitt tidspunkt må være innen 240 timer før nåtid!
+    </string>
+    <string name="missing_coordinates">Gå til kart for å angi koordinater</string>
+    <string name="coordinates_exception_msg">Du må angi koordinater.</string>
+
+    <!-- Content descriptions -->
+    <string name="temperature_text">temperature_text</string>
+    <string name="arrow_icon">arrow_icon</string>
+    <string name="umbrella_icon">umbrella_icon</string>
+    <string name="mapbox">map by mapbox</string>
+
+    <!-- File downloads -->
+    <string name="download_title">FenderFinder-simulering</string>
+    <string name="download_description">Laster ned drivbanesimulering</string>
+
+    <!-- Mapbox -->
+    <string name="new_location">Ny lokasjon: </string>
+    <string name="point_on_land_error">Dette punktet er på land!</string>
+    <string name="current_location">Min posisjon</string>
+    <string name="active_map_fragment_button">Søk etter din gjenstand</string>
+    <string name="inactive_map_fragment_button">Velg stedet der du \n
+        mistet gjenstanden din</string>
+    <string name="quit_progress">Avbryt søk</string>
+    <string name="quit_progress_toast_message">Vennligst avbryt søk for å starte et nytt søk.</string>
+    <string name="progress_message">
+        Vi jobber med å søke etter din gjenstand. Dette tar vanligvis 2–3 minutter.</string>
+
+    <string name="remove_points_message">
+        Er du sikker på at du vil fjerne punktene fra kartet? Du kan ikke gå tilbake etter å ha trykket Ja.
+    </string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="hide_points">Fjern punkter</string>
+    <string name="press_on_non_interactive_map_toast">
+        Vennligst fjern punkter før du starter et nytt søk.</string>
+
+    <string name="progress_failed">Noe gikk galt med søket. Vennligst sjekk koordinater.</string>
+
+    <!-- Onboarding -->
+    <string name="welcome">Velkommen til</string>
+    <string name="FenderFinder">FenderFinder</string>
+    <string name="description01">
+        Applikasjonen som hjelper deg med å finne \n
+        hvor dine tapte gjenstander har drevet
+    </string>
+
+    <!-- Permissions -->
+    <string name="user_location_permission_not_granted">
+        Tillatelse til å bruke din lokasjon ikke gitt.
+    </string>
+
+    <string name="user_location_permission_explanation">
+        Endre dine posisjonsinnstillinger for best opplevelse.
+    </string>
+
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoiaW4yMDAwIiwiYSI6ImNrbWVwczBqbzJ4bncyb253eDBpa2d4ODUifQ.MHjAG0OdpI5ivsZz0A4yfg
+    </string>
+
+    <!-- Content description -->
+    <string name="my_location_button">Min posisjon</string>
+    <string name="zoom_in">Zoom inn</string>
+    <string name="zoom_out">Zoom ut</string>
+
+    <!-- Drifty credentials -->
+    <string name="drifty_username">in2000</string>
+    <string name="drifty_password">dminteck</string>
+    <string name="cross">cross</string>
+    <string name="onboarding_icon">onboarding_icon</string>
+    <string name="next">Neste</string>
+    <string name="back">Tilbake</string>
+    <string name="onboarding">onboarding</string>
+
+</resources>
